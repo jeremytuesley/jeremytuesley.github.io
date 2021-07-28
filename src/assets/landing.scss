@@ -2,19 +2,32 @@
   height: 100vh;
   display: flex;
   align-items: center;
+
+  // header of landing, contains name/ subtitles
   header {
-    width: 800px;
-    height: 400px;
+    width: 1200px;
     margin: 0 auto;
     h1 {
-      text-align: center;
-      font-size: 6em;
-      margin-bottom: 50px;
+      width: 600px;
+      font-size: 3em;
+      line-height: 1.2;
     }
-    .subtitle {
-      display: flex;
-      justify-content: space-around;
-      font-size: 2em;
+    .blink {
+      position: relative;
+      bottom: 3px;
+      animation: blink-animation 1s steps(5, start) infinite;
+      -webkit-animation: blink-animation 1s steps(5, start) infinite;
     }
+  }
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
   }
 }
