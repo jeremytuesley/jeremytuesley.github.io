@@ -36,7 +36,6 @@ const Landing = () => {
         await anime(' React JS');
         await anime(' Node.js');
         await anime(' React Native');
-        await anime(' Ruby on Rails');
         await anime(' Sass/ CSS');
         await anime(' Apollo GQL');
         await anime(' Cypress');
@@ -54,7 +53,7 @@ const Landing = () => {
       <header>
         <div className="title">
           <h1>
-            Front end software developer that builds great apps with
+            Front end software developer who builds great apps with
             <span className="anime" ref={textRef} />
             <span className="blink">|</span>
           </h1>
