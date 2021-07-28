@@ -1,0 +1,20 @@
+.landingPage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  header {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    h1 {
+      text-align: center;
+      font-size: 6em;
+      margin-bottom: 50px;
+    }
+    .subtitle {
+      display: flex;
+      justify-content: space-around;
+      font-size: 2em;
+    }
+  }
+}
