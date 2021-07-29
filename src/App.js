@@ -1,11 +1,17 @@
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+
 import Landing from './components/Landing';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <main>
-      {/* <Navbar /> */}
-      <Landing />
-      {/* <Footer /> */}
+      <Navbar />
+      <Switch>
+        <Route path="/" component={Landing} exact />
+        {/* <Footer /> */}
+      </Switch>
     </main>
   );
 }

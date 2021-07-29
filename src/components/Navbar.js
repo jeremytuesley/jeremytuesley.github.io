@@ -1,24 +1,29 @@
-import React from 'React';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import '../assets/nav.scss';
 
 const Navbar = () => {
   return (
-    <>
-      <div className="topnav">
+    <nav>
+      <div className="topNav">
         <Link to="/">
-          <img src="" alt="mylogo"></img>
-          <h1>Jeremy Tuesley</h1>
+          <div className="logoContainer">
+            <div className="logoImage">
+              <img src="" alt="mylogo"></img>
+            </div>
+            <h1>Jeremy Tuesley</h1>
+          </div>
         </Link>
         <div>
-          <Link to="/skills">Skills </Link>
+          Skills
+          {/* <Link to="/skills">Skills </Link>
           <Link to="/projects">Projects </Link>
           <Link to="/blog"> Blog</Link>
-          <Link to="/contact">Contact </Link>
+          <Link to="/contact">Contact </Link> */}
         </div>
       </div>
-    </>
+    </nav>
   );
 };
 

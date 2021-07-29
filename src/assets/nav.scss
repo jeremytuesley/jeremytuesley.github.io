@@ -1,0 +1,13 @@
+Nav {
+  width: 100%;
+  .topNav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+
+    .logoContainer {
+      display: flex;
+    }
+  }
+}
