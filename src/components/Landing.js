@@ -34,11 +34,13 @@ const Landing = () => {
         await anime(' MongoDB');
         await anime(' Express');
         await anime(' React JS');
+        await anime(' Efficiency');
         await anime(' Node.js');
-        await anime(' React Native');
         await anime(' Sass/ CSS');
         await anime(' Apollo GQL');
+        await anime(' Care');
         await anime(' Cypress');
+        await anime(' Teamwork');
         await anime(' Git');
         await anime(' GitHub');
         await anime(' Cloudinary');
@@ -49,14 +51,28 @@ const Landing = () => {
   }, [textRef]);
 
   return (
-    <div className="landingPage">
+    <div className="landing-page">
       <header>
-        <div className="title">
+        <h1 className="landing-name-title">Jeremy Tuesley</h1>
+        <div className="landing-title">
           <h1>
-            Front end software developer who builds great apps with
+            Front end software engineer who builds great web apps with
             <span className="anime" ref={textRef} />
             <span className="blink">|</span>
           </h1>
+        </div>
+        <div className="about-container">
+          <p className="about-desc">
+            A dedicated, objective driven, developer with a passion for
+            delivering performant, responsive web applications with superb UI/
+            UX.
+          </p>
+          <div className="social-icons">
+            <div>GitHub</div>
+            <div>Codepen</div>
+            <div>LinkedIn</div>
+            <div>Resume</div>
+          </div>
         </div>
       </header>
     </div>

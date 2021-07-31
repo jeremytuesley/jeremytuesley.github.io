@@ -1,13 +1,30 @@
 Nav {
   width: 100%;
-  .topNav {
+  .top-nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    width: 1200px;
-
-    .logoContainer {
+    margin: 20px auto;
+    width: 85%;
+    .logo-container {
       display: flex;
+      align-items: center;
+      .logo-titles {
+        h1 {
+          font-size: 1.8em;
+          color: #313d3f;
+        }
+        h2 {
+          font-family: 'Noto Sans JP', sans-serif;
+          font-size: 1em;
+          color: #464c54;
+        }
+      }
+      .logo-image {
+        img {
+          width: 100px;
+          height: 70px;
+        }
+      }
     }
   }
 }

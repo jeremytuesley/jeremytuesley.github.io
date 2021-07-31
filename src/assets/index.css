@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@300&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500;700&family=Noto+Sans+JP:wght@500&family=Open+Sans&display=swap');
 
 * {
   font-family: 'Lato', sans-serif;
@@ -9,7 +9,7 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color: #313d3f;
 }
 .content {
   max-width: 1200px;
