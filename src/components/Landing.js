@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 
 import '../assets/landing.scss';
+import codethinking from '../assets/images/code-thinking.svg';
 
 const Landing = () => {
   const textRef = useRef(null);
@@ -31,20 +32,13 @@ const Landing = () => {
     const animeText = async () => {
       while (true) {
         await anime(' Javascript');
-        await anime(' MongoDB');
-        await anime(' Express');
         await anime(' React JS');
-        await anime(' Efficiency');
+        await anime(' Express');
         await anime(' Node.js');
-        await anime(' Sass/ CSS');
-        await anime(' Apollo GQL');
+        await anime(' Efficiency');
         await anime(' Care');
-        await anime(' Cypress');
         await anime(' Teamwork');
         await anime(' Git');
-        await anime(' GitHub');
-        await anime(' Cloudinary');
-        await anime(' Heroku');
       }
     };
     if (textRef.current?.innerText === '') animeText();
@@ -68,13 +62,20 @@ const Landing = () => {
             UX.
           </p>
           <div className="social-icons">
-            <div>GitHub</div>
-            <div>Codepen</div>
-            <div>LinkedIn</div>
-            <div>Resume</div>
+            <i class="fab fa-github default-black"></i>
+            <i class="far fa-envelope default-black"></i>
+            <i class="fab fa-linkedin-in linkedIn"></i>
+            <i class="far fa-file-pdf resume"></i>
           </div>
         </div>
       </header>
+      <figure>
+        <img
+          className="landing-background--image"
+          src={codethinking}
+          alt="bg-decoration"
+        />
+      </figure>
     </div>
   );
 };

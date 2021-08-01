@@ -3,15 +3,26 @@
   display: flex;
   align-items: center;
 
+  figure {
+    width: 1000px;
+    margin-right: 70px;
+    .landing-background--image {
+      z-index: -1;
+      width: 100%;
+    }
+  }
+
   // header of landing, contains name/ subtitles
   header {
-    width: 1200px;
+    width: 50%;
     margin-left: 140px;
     height: 600px;
 
     .landing-name-title {
-      font-family: 'Noto Sans JP', sans-serif;
-      color: #464c54;
+      font-size: 1.2em;
+      font-family: 'Arimo', sans-serif;
+      color: #878a8f;
+      letter-spacing: 0.4em;
       margin-bottom: 24px;
     }
     .landing-title {
@@ -38,9 +49,32 @@
     }
 
     .social-icons {
+      margin-top: 32px;
       display: flex;
       justify-content: space-between;
       width: 400px;
+      i {
+        font-size: 2rem;
+        &:hover {
+          cursor: pointer;
+          transition: 0.5s;
+        }
+      }
+      .default-black:hover {
+        color: #878a8f;
+      }
+      .linkedIn {
+        color: #0e76a8;
+        &:hover {
+          color: #095274;
+        }
+      }
+      .resume {
+        color: #af170c;
+        &:hover {
+          color: #ee1f10;
+        }
+      }
     }
   }
 }
