@@ -1,10 +1,15 @@
 Nav {
   width: 100%;
-  .top-nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px auto;
-    width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 85%;
+
+  .nav--logo {
+    &:hover {
+      transition: 500ms;
+      opacity: 85%;
+    }
     .logo-container {
       display: flex;
       align-items: center;
@@ -24,6 +29,29 @@ Nav {
           width: 100px;
           height: 70px;
         }
+      }
+    }
+  }
+  .nav__link--list {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav__link {
+      font-size: 1.3rem;
+      color: #464c54;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .contact-button {
+      background-color: #2123ab;
+      color: white;
+      padding: 8px 20px;
+      border-radius: 20px;
+      &:hover {
+        transition: 300ms;
+        background-color: #2c2ffc;
       }
     }
   }

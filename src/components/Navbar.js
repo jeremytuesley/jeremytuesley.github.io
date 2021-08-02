@@ -7,7 +7,7 @@ import logo from '../assets/images/logo.svg';
 const Navbar = () => {
   return (
     <nav>
-      <div className="top-nav">
+      <div className="nav--logo">
         <Link to="/">
           <div className="logo-container">
             <div className="logo-image">
@@ -19,14 +19,13 @@ const Navbar = () => {
             </div>
           </div>
         </Link>
-        <div className="top-nav__right">
-          Skills
-          {/* <Link to="/skills">Skills </Link>
-          <Link to="/projects">Projects </Link>
-          <Link to="/blog"> Blog</Link>
-          <Link to="/contact">Contact </Link> */}
-        </div>
       </div>
+      <ul className="nav__link--list">
+        <li className="nav__link">Skills</li>
+        <li className="nav__link">About Me</li>
+        <li className="nav__link">Projects</li>
+        <li className="nav__link contact-button">Contact</li>
+      </ul>
     </nav>
   );
 };
