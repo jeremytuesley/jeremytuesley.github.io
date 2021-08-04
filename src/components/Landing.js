@@ -49,11 +49,11 @@ const Landing = () => {
       <header>
         <h1 className="landing-name-title">Jeremy Tuesley</h1>
         <div className="landing-title">
-          <h1>
+          <h2>
             Front end software engineer who builds great web apps with
             <span className="anime" ref={textRef} />
             <span className="blink">|</span>
-          </h1>
+          </h2>
         </div>
         <div className="about-container">
           <p className="about-desc">
