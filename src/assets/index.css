@@ -5,7 +5,9 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: #f5f4fc;
+}
+html {
+  background-color: #f8f8f8;
 }
 li {
   display: list-item;
@@ -14,10 +16,4 @@ li {
 a {
   text-decoration: none;
   color: #313d3f;
-}
-.content {
-  max-width: 1200px;
-  margin: 0 auto;
-  color: #313d3f;
-  padding-top: 25px;
 }

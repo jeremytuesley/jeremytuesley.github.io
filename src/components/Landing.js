@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from 'react';
 
 import '../assets/landing.scss';
 import codethinking from '../assets/images/code-thinking.svg';
+import versioncontrol from '../assets/images/version-control.svg';
 
 const Landing = () => {
   const textRef = useRef(null);
@@ -45,38 +46,48 @@ const Landing = () => {
   }, [textRef]);
 
   return (
-    <div className="landing-page">
-      <header>
-        <h1 className="landing-name-title">Jeremy Tuesley</h1>
-        <div className="landing-title">
-          <h2>
-            Front end software engineer who builds great web apps with
-            <span className="anime" ref={textRef} />
-            <span className="blink">|</span>
-          </h2>
-        </div>
-        <div className="about-container">
-          <p className="about-desc">
-            A dedicated, objective driven, developer with a passion for
-            delivering performant, responsive web applications with superb UI/
-            UX.
-          </p>
-          <div className="social-icons">
-            <i class="fab fa-github default-black"></i>
-            <i class="far fa-envelope default-black"></i>
-            <i class="fab fa-linkedin-in linkedIn"></i>
-            <i class="far fa-file-pdf resume"></i>
+    <>
+      <div className="landing-page">
+        <header>
+          <h1 className="landing-name-title">Jeremy Tuesley</h1>
+          <div className="landing-title">
+            <h2>
+              Front end software engineer who builds great web apps with
+              <span className="anime" ref={textRef} />
+              <span className="blink">|</span>
+            </h2>
           </div>
-        </div>
-      </header>
-      <figure>
+          <div className="about-container">
+            <p className="about-desc">
+              A dedicated, objective driven, developer with a passion for
+              delivering performant, responsive web applications with superb UI/
+              UX.
+            </p>
+            <div className="social-icons">
+              <i class="fab fa-github default-black"></i>
+              <i class="far fa-envelope default-black"></i>
+              <i class="fab fa-linkedin-in linkedIn"></i>
+              <i class="far fa-file-pdf resume"></i>
+            </div>
+          </div>
+        </header>
+        <figure>
+          <img
+            className="landing-background--image"
+            src={codethinking}
+            alt="bg-decoration"
+          />
+        </figure>
+      </div>
+      <div className="landing-bottom">
         <img
-          className="landing-background--image"
-          src={codethinking}
+          className="landing-bottom--image"
+          src={versioncontrol}
           alt="bg-decoration"
         />
-      </figure>
-    </div>
+        <div className="landing-bottom--background" />
+      </div>
+    </>
   );
 };
 

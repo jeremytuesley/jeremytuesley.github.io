@@ -1,7 +1,8 @@
 .landing-page {
-  height: 100vh;
   display: flex;
   align-items: center;
+  height: 100vh;
+  margin-bottom: 240px;
 
   figure {
     width: 1000px;
@@ -16,8 +17,7 @@
   header {
     width: 50%;
     margin-left: 140px;
-    height: 600px;
-
+    height: 500px;
     .landing-name-title {
       font-size: 1.2em;
       font-family: 'Arimo', sans-serif;
@@ -78,7 +78,19 @@
     }
   }
 }
-
+.landing-bottom {
+  padding-left: 100px;
+  position: absolute;
+  .landing-bottom--image {
+    position: absolute;
+    bottom: 0;
+    width: 600px;
+  }
+  .landing-bottom--background {
+    height: 50px;
+    background-color: #f5f4fc;
+  }
+}
 @keyframes blink-animation {
   to {
     visibility: hidden;
