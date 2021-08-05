@@ -17,19 +17,28 @@ const Skills = () => {
           <div className="skills-content-container">
             <div className="skills">
               <div className="image-container">
-                <i class="fab fa-html5"></i>
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-128/html5-40-1175193.png"
+                  alt="HTMLLogo"
+                />
               </div>
               <h2 className="skill-name">HTML5</h2>
             </div>
             <div className="skills">
               <div className="image-container">
-                <i class="fab fa-css3-alt"></i>
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-128/css3-11-1175239.png"
+                  alt="CSSLogo"
+                />
               </div>
               <h2 className="skill-name">CSS3</h2>
             </div>
             <div className="skills">
               <div className="image-container">
-                <i class="fab fa-sass"></i>
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-128/sass-226054.png"
+                  alt="SassLogo"
+                />
               </div>
               <h2 className="skill-name">SCSS</h2>
             </div>
@@ -53,7 +62,10 @@ const Skills = () => {
             </div>
             <div className="skills">
               <div className="image-container">
-                <i class="fab fa-react"></i>
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-128/react-3-1175109.png"
+                  alt="ReactLogo"
+                />
               </div>
               <h2 className="skill-name">React Js</h2>
             </div>

@@ -55,9 +55,10 @@
       width: 400px;
       i {
         font-size: 2rem;
+        -webkit-transition: all 500ms;
+        transition: all 500ms;
         &:hover {
           cursor: pointer;
-          transition: 500ms;
         }
       }
       .default-black:hover {

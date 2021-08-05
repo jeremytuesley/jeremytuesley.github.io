@@ -4,9 +4,10 @@
   align-items: center;
   background-color: #f5f4fc;
   .skills-title {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 3em;
     letter-spacing: 0.1em;
-    margin: 32px 0;
+    margin: 48px 0;
   }
   .skills-outer-container {
     display: flex;
@@ -19,12 +20,14 @@
       font-size: 2em;
       text-align: center;
       margin-bottom: 24px;
+      letter-spacing: 0.1em;
     }
     .skills-content-container {
       display: flex;
       flex-wrap: wrap;
-      width: 100%;
+      width: 80%;
       align-items: center;
+      margin: 0 auto;
       .skills {
         display: flex;
         flex-direction: column;
@@ -32,41 +35,38 @@
         justify-content: center;
         width: 33.33%;
         padding-bottom: 2em;
+        min-height: 150px;
+        max-height: 150px;
         .image-container {
           display: flex;
           align-items: center;
           justify-content: center;
           height: 112px;
+          &:hover {
+            img {
+              filter: brightness(70%);
+              opacity: 0.86;
+              transform: scale(0.9);
+            }
+            + h2 {
+              transform: scale(1);
+              opacity: 1;
+            }
+          }
         }
         h2 {
+          -webkit-transition: all 500ms;
+          transition: all 500ms;
           text-align: center;
-          display: none;
-        }
-        i {
-          font-size: 100px;
-          max-width: 100%;
+          transform: scale(0);
+          opacity: 0;
+          user-select: none;
         }
         img {
+          -webkit-transition: all 500ms;
+          transition: all 500ms;
           width: 100%;
-          max-width: 100px;
-        }
-        .fa-html5 {
-          background: -webkit-linear-gradient(left, #ffa600, #e34f26);
-          background-clip: text;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-        .fa-css3-alt {
-          background: -webkit-linear-gradient(right, #2965f1, #264de4);
-          background-clip: text;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-        .fa-sass {
-          color: #cd6799;
-        }
-        .fa-react {
-          color: #61dbfb;
+          max-width: 75px;
         }
       }
     }
