@@ -3,6 +3,7 @@ import { Route } from 'react-router';
 import { Switch } from 'react-router-dom';
 
 import Landing from './components/Landing';
+import Projects from './components/Projects';
 import Skills from './components/Skills';
 
 const Routes = () => {
@@ -11,6 +12,7 @@ const Routes = () => {
       <Route path="/">
         <Landing />
         <Skills />
+        <Projects />
       </Route>
       {/* <Route path="/about" component={About} /> */}
     </Switch>
