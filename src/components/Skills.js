@@ -6,7 +6,7 @@ import '../assets/skills.scss';
 
 const Skills = () => {
   return (
-    <div className="skills-page">
+    <section className="skills-page">
       <a name="skills" />
       <h1 className="skills-title">
         Here's my <span className="title-colour">Tech Stack</span>
@@ -185,7 +185,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

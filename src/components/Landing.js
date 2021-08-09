@@ -47,7 +47,7 @@ const Landing = () => {
 
   return (
     <>
-      <div className="landing-page">
+      <section className="landing-page">
         <header>
           <h1 className="landing-name-title">Jeremy Tuesley</h1>
           <div className="landing-title">
@@ -78,7 +78,7 @@ const Landing = () => {
             alt="bg-decoration"
           />
         </figure>
-      </div>
+      </section>
       <div className="landing-bottom">
         <img
           className="landing-bottom--image"
