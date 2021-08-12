@@ -4,6 +4,9 @@ import React from 'react';
 
 import '../assets/projects.scss';
 import xlextends from '../assets/images/projects/xlextends.png';
+import pcmart from '../assets/images/projects/pcmart.png';
+import studyassistant from '../assets/images/projects/studyassistant.png';
+import originalportfolio from '../assets/images/projects/originalportfolio.png';
 
 const Projects = () => {
   return (
@@ -19,52 +22,155 @@ const Projects = () => {
             alt="xlextends-screenshot"
             className="bg-image"
           />
-          <h2 className="project-name">
-            XLExtends
-            <span className="project-name-desc"> - Shopfront Website </span>
-          </h2>
-          <section className="project-details">
-            <p>
-              MERN Stack Shopfront website, with booking system, availability,
-              online payment.
-            </p>
-            <div className="tech-container">
-              <ul className="project-tech">
-                <h3 className="tech-title">Languages Used</h3>
-                <li>React</li>
-                <li>JavaScript</li>
-                <li>Sass</li>
-                <li>CSS</li>
-                <li>HTML</li>
-              </ul>
-              <ul className="project-tools">
-                <h3 className="tech-title">Tools Used</h3>
-                <li>Apollo GQL</li>
-                <li>Git</li>
-                <li>Cypress</li>
-                <li>MongoDB</li>
-                <li>Heroku</li>
-              </ul>
-            </div>
-            <div className="project-card__links-container">
-              <a
-                href="https://xlextends-client.herokuapp.com"
-                rel="noreferrer"
-                target="_blank"
-                className="card-button-link"
-              >
-                See Live
-              </a>
-              <a
-                href="https://github.com/jeremytuesley/xlextends-client"
-                rel="noreferrer"
-                target="_blank"
-                className="card-button-link"
-              >
-                See Source Code
-              </a>
-            </div>
-          </section>
+          <div className="project-cover">
+            <section className="project-details">
+              <h2 className="project-name">XLExtends - Frontend</h2>
+              <p className="project-tech">
+                React, JavaScript, Sass, CSS, HTML{' '}
+                <p className="tools">
+                  Apollo GQL, Git, Cypress, MongoDB, Heroku,
+                </p>
+              </p>
+              <p className="project-desc">
+                MERN Stack shopfront website, with booking system, availability
+                and online payment using stripe.
+              </p>
+              <div className="project-card__links-container">
+                <a
+                  href="https://xlextends-client.herokuapp.com"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="card-button-link"
+                >
+                  <i class="fas fa-link" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://github.com/jeremytuesley/xlextends-client"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="card-button-link"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div className="project-card">
+          <img src={pcmart} alt="pcmart-screenshot" className="bg-image" />
+          <div className="project-cover">
+            <section className="project-details">
+              <h2 className="project-name">XLExtends - Frontend</h2>
+              <p className="project-tech">
+                React, JavaScript, Sass, CSS, HTML{' '}
+                <p className="tools">
+                  Apollo GQL, Git, Cypress, MongoDB, Heroku,
+                </p>
+              </p>
+              <p className="project-desc">
+                MERN Stack shopfront website, with booking system, availability
+                and online payment using stripe.
+              </p>
+              <div className="project-card__links-container">
+                <a
+                  href="https://xlextends-client.herokuapp.com"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="card-button-link"
+                >
+                  <i class="fas fa-link" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://github.com/jeremytuesley/xlextends-client"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="card-button-link"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div className="project-card">
+          <img
+            src={studyassistant}
+            alt="study-assistant-screenshot"
+            className="bg-image"
+          />
+          <div className="project-cover">
+            <section className="project-details">
+              <h2 className="project-name">XLExtends - Frontend</h2>
+              <p className="project-tech">
+                React, JavaScript, Sass, CSS, HTML{' '}
+                <p className="tools">
+                  Apollo GQL, Git, Cypress, MongoDB, Heroku,
+                </p>
+              </p>
+              <p className="project-desc">
+                MERN Stack shopfront website, with booking system, availability
+                and online payment using stripe.
+              </p>
+              <div className="project-card__links-container">
+                <a
+                  href="https://xlextends-client.herokuapp.com"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="card-button-link"
+                >
+                  <i class="fas fa-link" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://github.com/jeremytuesley/xlextends-client"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="card-button-link"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div className="project-card">
+          <img
+            src={originalportfolio}
+            alt="originalportfolio-screenshot"
+            className="bg-image"
+          />
+          <div className="project-cover">
+            <section className="project-details">
+              <h2 className="project-name">XLExtends - Frontend</h2>
+              <p className="project-tech">
+                React, JavaScript, Sass, CSS, HTML{' '}
+                <p className="tools">
+                  Apollo GQL, Git, Cypress, MongoDB, Heroku,
+                </p>
+              </p>
+              <p className="project-desc">
+                MERN Stack shopfront website, with booking system, availability
+                and online payment using stripe.
+              </p>
+              <div className="project-card__links-container">
+                <a
+                  href="https://xlextends-client.herokuapp.com"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="card-button-link"
+                >
+                  <i class="fas fa-link" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://github.com/jeremytuesley/xlextends-client"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="card-button-link"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </section>
+          </div>
         </div>
       </div>
     </section>
