@@ -60,20 +60,18 @@ const Projects = () => {
           <img src={pcmart} alt="pcmart-screenshot" className="bg-image" />
           <div className="project-cover">
             <section className="project-details">
-              <h2 className="project-name">XLExtends - Frontend</h2>
+              <h2 className="project-name">PC Mart - Full Stack</h2>
               <p className="project-tech">
-                React, JavaScript, Sass, CSS, HTML{' '}
-                <p className="tools">
-                  Apollo GQL, Git, Cypress, MongoDB, Heroku,
-                </p>
+                Ruby on Rails, Ruby, Sass, CSS, HTML, Js
+                <p className="tools">PostgreSQL, Git, Devise, Heroku</p>
               </p>
               <p className="project-desc">
-                MERN Stack shopfront website, with booking system, availability
-                and online payment using stripe.
+                Two-sided Marketplace web application, front-end and back-end
+                built with Ruby on Rails.
               </p>
               <div className="project-card__links-container">
                 <a
-                  href="https://xlextends-client.herokuapp.com"
+                  href="https://pc-mart.herokuapp.com"
                   rel="noreferrer"
                   target="_blank"
                   className="card-button-link"
@@ -81,7 +79,7 @@ const Projects = () => {
                   <i class="fas fa-link" aria-hidden="true"></i>
                 </a>
                 <a
-                  href="https://github.com/jeremytuesley/xlextends-client"
+                  href="https://github.com/jeremytuesley/PC-Mart"
                   rel="noreferrer"
                   target="_blank"
                   className="card-button-link"
@@ -140,20 +138,18 @@ const Projects = () => {
           />
           <div className="project-cover">
             <section className="project-details">
-              <h2 className="project-name">XLExtends - Frontend</h2>
+              <h2 className="project-name">Original Portfolio</h2>
               <p className="project-tech">
-                React, JavaScript, Sass, CSS, HTML{' '}
-                <p className="tools">
-                  Apollo GQL, Git, Cypress, MongoDB, Heroku,
-                </p>
+                JavaScript, CSS, HTML
+                <p className="tools">Git, GitHub Pages</p>
               </p>
               <p className="project-desc">
-                MERN Stack shopfront website, with booking system, availability
-                and online payment using stripe.
+                Original developer portfolio, no libraries used, all css
+                animations original code.
               </p>
               <div className="project-card__links-container">
                 <a
-                  href="https://xlextends-client.herokuapp.com"
+                  href="https://www.jeremytuesley.com"
                   rel="noreferrer"
                   target="_blank"
                   className="card-button-link"
@@ -161,7 +157,7 @@ const Projects = () => {
                   <i class="fas fa-link" aria-hidden="true"></i>
                 </a>
                 <a
-                  href="https://github.com/jeremytuesley/xlextends-client"
+                  href="https://github.com/jeremytuesley/jeremytuesley.github.io"
                   rel="noreferrer"
                   target="_blank"
                   className="card-button-link"
