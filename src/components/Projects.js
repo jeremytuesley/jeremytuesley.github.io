@@ -98,20 +98,19 @@ const Projects = () => {
           />
           <div className="project-cover">
             <section className="project-details">
-              <h2 className="project-name">XLExtends - Frontend</h2>
+              <h2 className="project-name">StudyAssistant</h2>
               <p className="project-tech">
-                React, JavaScript, Sass, CSS, HTML{' '}
-                <p className="tools">
-                  Apollo GQL, Git, Cypress, MongoDB, Heroku,
-                </p>
+                Ruby, Bash
+                <p className="tools">Trello, Git</p>
               </p>
               <p className="project-desc">
-                MERN Stack shopfront website, with booking system, availability
-                and online payment using stripe.
+                Ruby Terminal application, users input their own questions and
+                answers. Made to assist with self-revision of questions and
+                answers
               </p>
               <div className="project-card__links-container">
                 <a
-                  href="https://xlextends-client.herokuapp.com"
+                  href="https://github.com/jeremytuesley/StudyAssistant"
                   rel="noreferrer"
                   target="_blank"
                   className="card-button-link"
@@ -119,7 +118,7 @@ const Projects = () => {
                   <i class="fas fa-link" aria-hidden="true"></i>
                 </a>
                 <a
-                  href="https://github.com/jeremytuesley/xlextends-client"
+                  href="https://github.com/jeremytuesley/StudyAssistant"
                   rel="noreferrer"
                   target="_blank"
                   className="card-button-link"
