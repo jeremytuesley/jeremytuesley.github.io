@@ -25,7 +25,9 @@ const Navbar = () => {
           <a href="/#skills">Skills</a>
         </li>
         <li className="nav__link">
-          <Link to="/about">About Me</Link>
+          <a href="../assets/images/Jeremy-Tuesley_Resume.pdf" download>
+            Resume
+          </a>
         </li>
         <li className="nav__link">
           <a href="/#projects">Projects</a>
