@@ -25,8 +25,18 @@ const Navbar = () => {
           <a href="/#skills">Skills</a>
         </li>
         <li className="nav__link">About Me</li>
-        <li className="nav__link">Projects</li>
-        <li className="nav__link contact-button">Contact</li>
+        <li className="nav__link">
+          <a href="/#projects">Projects</a>
+        </li>
+        <li className="nav__link contact-button">
+          <a
+            href="mailto:jeremytuesley@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Contact
+          </a>
+        </li>
       </ul>
     </nav>
   );
