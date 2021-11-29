@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import '../assets/nav.scss';
+import resume from '../assets/images/Jeremy-Tuesley_Resume.pdf';
 import logo from '../assets/images/logo.svg';
 
 const Navbar = () => {
@@ -25,7 +26,7 @@ const Navbar = () => {
           <a href="/#skills">Skills</a>
         </li>
         <li className="nav__link">
-          <a href="../assets/images/Jeremy-Tuesley_Resume.pdf" download>
+          <a href={resume} download>
             Resume
           </a>
         </li>
