@@ -3,6 +3,7 @@ import React, { useRef, useEffect } from 'react';
 import '../assets/landing.scss';
 import codethinking from '../assets/images/code-thinking.svg';
 import versioncontrol from '../assets/images/version-control.svg';
+import resume from '../assets/images/Jeremy-Tuesley_Resume.pdf';
 
 const Landing = () => {
   const textRef = useRef(null);
@@ -64,10 +65,30 @@ const Landing = () => {
               UX.
             </p>
             <div className="social-icons">
-              <i class="fab fa-github default-black"></i>
-              <i class="far fa-envelope default-black"></i>
-              <i class="fab fa-linkedin-in linkedIn"></i>
-              <i class="far fa-file-pdf resume"></i>
+              <a
+                href="https://www.github.com/jeremytuesley"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fab fa-github default-black"></i>
+              </a>
+              <a
+                href="mailto:jeremytuesley@gmail.com"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="far fa-envelope default-black"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jeremy-tuesley-46ab3619a/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in linkedIn"></i>
+              </a>
+              <a href={resume} download>
+                <i class="far fa-file-pdf resume"></i>
+              </a>
             </div>
           </div>
         </header>

@@ -27,7 +27,7 @@ const Navbar = () => {
         </li>
         <li className="nav__link">
           <a href={resume} download>
-            Resume
+            Resumé
           </a>
         </li>
         <li className="nav__link">

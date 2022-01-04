@@ -1,8 +1,10 @@
 .projects-page {
+  margin: 80px 0;
   .project-page-title {
     font-size: 3em;
     text-align: center;
-    margin: 32px auto 72px auto;
+    margin: 32px auto 88px auto;
+    letter-spacing: 0.05em;
   }
   .project-card-container {
     display: flex;
@@ -19,7 +21,7 @@
       height: 365px;
       box-shadow: 0 10px 30px #dad9df;
       border-radius: 20px;
-      margin-bottom: 48px;
+      margin-bottom: 104px;
       overflow: hidden;
       position: relative;
       &:hover {
