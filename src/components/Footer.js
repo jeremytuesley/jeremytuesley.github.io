@@ -15,7 +15,7 @@ const Footer = () => {
             <span className="logo_top-popper">Back to Top &#8593;</span>
           </a>
         </div>
-        <div className="footer_social-links">
+        <div className="footer_social-links underline-animation">
           <a
             href="https://github.com/jeremytuesley"
             target="_blank"

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import '../assets/nav.scss';
+import '../assets/animation.scss';
 import resume from '../assets/images/Jeremy-Tuesley_Resume.pdf';
 import logo from '../assets/images/logo.svg';
 
@@ -21,7 +22,7 @@ const Navbar = () => {
           </div>
         </Link>
       </div>
-      <ul className="nav__link--list">
+      <ul className="nav__link--list underline-animation">
         <li className="nav__link">
           <a href="/#skills">Skills</a>
         </li>
