@@ -39,6 +39,7 @@ const Navbar = () => {
             href="mailto:jeremytuesley@gmail.com"
             target="_blank"
             rel="noreferrer"
+            className="contact-link"
           >
             Contact
           </a>

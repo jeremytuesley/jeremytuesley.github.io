@@ -1,4 +1,4 @@
-.underline-animation a {
+.underline-animation a:not(.contact-link) {
   position: relative;
 
   &:after {
