@@ -5,7 +5,7 @@
   margin-bottom: 160px;
 
   figure {
-    width: 1000px;
+    min-width: 40%;
     margin-right: 70px;
     .landing-background--image {
       z-index: -1;
@@ -102,3 +102,26 @@
     visibility: hidden;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .landing-page {
+    background-color: red;
+    header {
+      max-width: 50%;
+      margin-left: 100px;
+      .landing-name-title {
+        font-size: 1.2em;
+      }
+      .landing-title {
+        width: 90%;
+        font-size: 1.4em;
+      }
+    }
+    .about-container {
+      width: 480px;
+      .about-desc {
+        font-size: 1.3em;
+      }
+    }
+  }
+} ;
