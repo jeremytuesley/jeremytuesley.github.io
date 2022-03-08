@@ -1,5 +1,4 @@
 Nav {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   margin: 20px auto;
@@ -58,6 +57,34 @@ Nav {
         color: white;
         transition: opacity 300ms ease;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  Nav {
+    width: 90%;
+    height: 160px;
+    .nav--logo {
+      .logo-container {
+        .logo-titles {
+          h1 {
+            font-size: 2.2em;
+          }
+          h2 {
+            font-size: 1.3em;
+          }
+        }
+        .logo-image {
+          img {
+            width: 130px;
+            height: 91px;
+          }
+        }
+      }
+    }
+    .nav__link--list {
+      display: none;
     }
   }
 }

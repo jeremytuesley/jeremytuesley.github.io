@@ -105,22 +105,25 @@
 
 @media only screen and (max-width: 1200px) {
   .landing-page {
+    height: 680px;
     background-color: red;
     header {
-      max-width: 50%;
       margin-left: 100px;
       .landing-name-title {
-        font-size: 1.2em;
-      }
-      .landing-title {
-        width: 90%;
         font-size: 1.4em;
       }
+      .landing-title {
+        width: 100%;
+        font-size: 1.7em;
+      }
+    }
+    figure {
+      display: none;
     }
     .about-container {
-      width: 480px;
+      width: 600px;
       .about-desc {
-        font-size: 1.3em;
+        font-size: 1.8em;
       }
     }
   }
