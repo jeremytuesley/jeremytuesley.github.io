@@ -1,0 +1,130 @@
+.landing-page {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 160px;
+
+  figure {
+    min-width: 40%;
+    margin-right: 70px;
+    .landing-background--image {
+      z-index: -1;
+      width: 100%;
+    }
+  }
+
+  // header of landing, contains name/ subtitles
+  header {
+    width: 50%;
+    margin-left: 140px;
+    height: 500px;
+    .landing-name-title {
+      font-size: 1.2em;
+      font-family: 'Arimo', sans-serif;
+      color: #878a8f;
+      letter-spacing: 0.4em;
+      margin-bottom: 24px;
+    }
+    .landing-title {
+      width: 605px;
+      font-size: 2em;
+      line-height: 1.2;
+      margin-bottom: 24px;
+    }
+
+    .blink {
+      position: relative;
+      bottom: 3px;
+      animation: blink-animation 1s steps(5, start) infinite;
+      -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    }
+  }
+  .about-container {
+    width: 500px;
+    .about-desc {
+      line-height: 1.4;
+      font-size: 1.4em;
+      color: #464c54;
+      margin-bottom: 12px;
+    }
+
+    .social-icons {
+      margin-top: 52px;
+      display: flex;
+      justify-content: space-between;
+      width: 400px;
+      i {
+        font-size: 2rem;
+        -webkit-transition: all 500ms;
+        transition: all 500ms;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .default-black:hover {
+        color: #878a8f;
+      }
+      .linkedIn {
+        color: #0e76a8;
+        &:hover {
+          color: #095274;
+        }
+      }
+      .resume {
+        color: #af170c;
+        &:hover {
+          color: #ee1f10;
+        }
+      }
+    }
+  }
+}
+.landing-bottom {
+  padding-left: 100px;
+  position: absolute;
+  .landing-bottom--image {
+    position: absolute;
+    bottom: 0;
+    width: 480px;
+  }
+  .landing-bottom--background {
+    height: 40px;
+    background-color: #f5f4fc;
+  }
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .landing-page {
+    height: 680px;
+    background-color: red;
+    header {
+      margin-left: 100px;
+      .landing-name-title {
+        font-size: 1.4em;
+      }
+      .landing-title {
+        width: 100%;
+        font-size: 1.7em;
+      }
+    }
+    figure {
+      display: none;
+    }
+    .about-container {
+      width: 600px;
+      .about-desc {
+        font-size: 1.8em;
+      }
+    }
+  }
+} ;

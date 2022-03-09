@@ -1,13 +1,22 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500;700&family=Noto+Sans+JP:wght@500&family=Open+Sans&display=swap&family=Arimo&display=swap');
+* {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  background-color: #f8f8f8;
+}
+li {
+  display: list-item;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #313d3f;
+}
+.title-colour {
+  color: #2c2ffc;
 }
