@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.916d8254.chunk.css",
+    "main.js": "/static/js/main.0e18e34c.chunk.js",
+    "main.js.map": "/static/js/main.0e18e34c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83b2f14c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83b2f14c.js.map",
+    "static/js/2.b894765e.chunk.js": "/static/js/2.b894765e.chunk.js",
+    "static/js/2.b894765e.chunk.js.map": "/static/js/2.b894765e.chunk.js.map",
+    "static/js/3.81acf1a0.chunk.js": "/static/js/3.81acf1a0.chunk.js",
+    "static/js/3.81acf1a0.chunk.js.map": "/static/js/3.81acf1a0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.916d8254.chunk.css.map": "/static/css/main.916d8254.chunk.css.map",
+    "static/js/2.b894765e.chunk.js.LICENSE.txt": "/static/js/2.b894765e.chunk.js.LICENSE.txt",
+    "static/media/Jeremy-Tuesley_Resume.4be1890c.pdf": "/static/media/Jeremy-Tuesley_Resume.4be1890c.pdf",
+    "static/media/code-thinking.1808a1e6.svg": "/static/media/code-thinking.1808a1e6.svg",
+    "static/media/logo.0d8bfcd2.svg": "/static/media/logo.0d8bfcd2.svg",
+    "static/media/originalportfolio.b4218532.png": "/static/media/originalportfolio.b4218532.png",
+    "static/media/pcmart.eb4f44f5.png": "/static/media/pcmart.eb4f44f5.png",
+    "static/media/studyassistant.5f1b94dd.png": "/static/media/studyassistant.5f1b94dd.png",
+    "static/media/version-control.6cea7b2b.svg": "/static/media/version-control.6cea7b2b.svg",
+    "static/media/xlextends.a4c4b892.png": "/static/media/xlextends.a4c4b892.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83b2f14c.js",
+    "static/js/2.b894765e.chunk.js",
+    "static/css/main.916d8254.chunk.css",
+    "static/js/main.0e18e34c.chunk.js"
+  ]
+}
