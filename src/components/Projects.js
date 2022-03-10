@@ -148,7 +148,7 @@ const Projects = () => {
               </p>
               <div className="project-card__links-container">
                 <a
-                  href="https://www.jeremytuesley.com"
+                  href="https://github.com/jeremytuesley/First-Portfolio"
                   rel="noreferrer"
                   target="_blank"
                   className="card-button-link"
@@ -156,7 +156,7 @@ const Projects = () => {
                   <i class="fas fa-link" aria-hidden="true"></i>
                 </a>
                 <a
-                  href="https://github.com/jeremytuesley/jeremytuesley.github.io"
+                  href="https://github.com/jeremytuesley/First-Portfolio"
                   rel="noreferrer"
                   target="_blank"
                   className="card-button-link"
