@@ -1,51 +1,12 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 
 import '../assets/landing.scss';
 import codethinking from '../assets/images/code-thinking.svg';
 import versioncontrol from '../assets/images/version-control.svg';
 import resume from '../assets/images/Jeremy-Tuesley_Resume.pdf';
+import TextAnimation from './TextAnimation';
 
 const Landing = () => {
-  const textRef = useRef(null);
-
-  // starts the animation flow
-  useEffect(() => {
-    // tell the javascript to wait, default 100ms
-    const wait = (time = 100) =>
-      new Promise((done) => setTimeout(() => done(), time));
-
-    // the animation
-    const anime = async (word) => {
-      for (const i in word) {
-        const index = parseInt(i) + 1;
-        textRef.current.innerText = word.slice(0, index);
-        await wait();
-      }
-      await wait(500);
-      for (const i in word) {
-        const index = word.length - parseInt(i) - 1;
-        textRef.current.innerText = word.slice(0, index);
-        await wait();
-      }
-      await wait(500);
-    };
-
-    // infinitely runs the animations
-    const animeText = async () => {
-      while (true) {
-        await anime(' Javascript');
-        await anime(' React JS');
-        await anime(' Express');
-        await anime(' Node.js');
-        await anime(' Efficiency');
-        await anime(' Care');
-        await anime(' Teamwork');
-        await anime(' Git');
-      }
-    };
-    if (textRef.current?.innerText === '') animeText();
-  }, [textRef]);
-
   return (
     <>
       <section className="landing-page">
@@ -54,7 +15,10 @@ const Landing = () => {
           <div className="landing-title">
             <h2>
               Front end software engineer who builds great web apps with
-              <span className="anime" ref={textRef} />
+              <span className="anime">
+                {' '}
+                <TextAnimation />
+              </span>
               <span className="blink">|</span>
             </h2>
           </div>
