@@ -20,3 +20,8 @@ a {
 .title-colour {
   color: #2c2ffc;
 }
+
+section {
+  max-width: 1520px;
+  margin: 0 auto;
+}
