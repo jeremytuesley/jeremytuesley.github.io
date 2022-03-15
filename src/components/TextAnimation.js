@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 const WordConfig = [
   'Javascript',
   'React JS',
-  'Express',
-  'Node.js',
+  'TypeScript',
+  'Rails',
   'Efficiency',
   'Care',
   'Teamwork',
