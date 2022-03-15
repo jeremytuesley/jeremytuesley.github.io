@@ -98,3 +98,18 @@
     }
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .projects-page {
+    .project-card-container {
+      display: flex;
+      justify-content: column;
+      align-items: center;
+      justify-content: center;
+      .project-card {
+        width: 90%;
+        height: 400px;
+      }
+    }
+  }
+}
