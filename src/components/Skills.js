@@ -132,7 +132,7 @@ const Skills = () => {
               <div className="skills">
                 <div className="image-container">
                   <img
-                    src="https://www.cypress.io/static/33498b5f95008093f5f94467c61d20ab/c0bf4/cypress-logo.webp"
+                    src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Cypress.png?20191226135330"
                     alt="CypressLogo"
                   />
                 </div>

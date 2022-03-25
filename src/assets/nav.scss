@@ -32,6 +32,7 @@ Nav {
       }
     }
   }
+
   .nav__link--list {
     width: 500px;
     display: flex;
@@ -58,6 +59,25 @@ Nav {
         transition: opacity 300ms ease;
       }
     }
+  }
+}
+button {
+  max-height: 100px;
+  img {
+    height: 40px;
+    width: 40px;
+  }
+}
+.hamburger__menu-item {
+  text-align: center;
+  background-color: #696969;
+  color: antiquewhite;
+  transition: 200ms ease;
+  font-size: 20px;
+  padding: 18px;
+  letter-spacing: 1.5px;
+  &:hover {
+    background-color: #878a8f;
   }
 }
 
