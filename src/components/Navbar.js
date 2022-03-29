@@ -36,17 +36,34 @@ const Navbar = () => {
           <img src={hamburgerIcon} alt="hamburger" onClick={toggleDrawer}></img>
         </div>
         <Drawer anchor="top" open={drawerOpen} onClose={toggleDrawer}>
-          <div className="hamburger__menu-item" style={{ paddingTop: '36px' }}>
-            Skills
-          </div>
-          <div className="hamburger__menu-item">Resume</div>
-          <div className="hamburger__menu-item">Projects</div>
-          <div
-            className="hamburger__menu-item"
-            style={{ paddingBottom: '36px' }}
+          <a href="/#skills" onClick={toggleDrawer}>
+            <div
+              className="hamburger__menu-item"
+              style={{ paddingTop: '36px' }}
+            >
+              Skills
+            </div>
+          </a>
+          <a href={resume} download onClick={toggleDrawer}>
+            <div className="hamburger__menu-item">Resumé</div>
+          </a>
+          <a href="/#projects" onClick={toggleDrawer}>
+            <div className="hamburger__menu-item">Projects</div>
+          </a>
+          <a
+            href="mailto:jeremytuesley@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            className="contact-link"
+            onClick={toggleDrawer}
           >
-            Contact
-          </div>
+            <div
+              className="hamburger__menu-item"
+              style={{ paddingBottom: '36px' }}
+            >
+              Contact
+            </div>
+          </a>
         </Drawer>
       </React.Fragment>
       <ul className="nav__link--list underline-animation">
