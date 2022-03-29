@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Drawer from '@mui/material/Drawer';
-import Button from '@mui/material/Button';
 
 import '../assets/nav.scss';
 import '../assets/animation.scss';
@@ -33,9 +32,9 @@ const Navbar = () => {
         </Link>
       </div>
       <React.Fragment>
-        <Button onClick={toggleDrawer}>
-          <img src={hamburgerIcon} alt="hamburger"></img>
-        </Button>
+        <div className="hamburger-menu__icon">
+          <img src={hamburgerIcon} alt="hamburger" onClick={toggleDrawer}></img>
+        </div>
         <Drawer anchor="top" open={drawerOpen} onClose={toggleDrawer}>
           <div className="hamburger__menu-item" style={{ paddingTop: '36px' }}>
             Skills
