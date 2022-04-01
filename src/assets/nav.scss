@@ -113,3 +113,35 @@ Nav {
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  Nav {
+    height: 120px;
+    .nav--logo {
+      .logo-container {
+        .logo-titles {
+          margin: 0 24px;
+          h1 {
+            font-size: 20px;
+          }
+          h2 {
+            font-size: 12px;
+          }
+        }
+        .logo-image {
+          img {
+            height: 80px;
+            width: 60px;
+          }
+        }
+      }
+    }
+  }
+  .hamburger-menu__icon {
+    height: 86px;
+    img {
+      height: 28px;
+      width: 28px;
+    }
+  }
+}

@@ -126,4 +126,33 @@
       }
     }
   }
-} ;
+}
+
+@media only screen and (max-width: 600px) {
+  .landing-page {
+    height: 420px;
+    header {
+      width: 100%;
+      margin-left: 0;
+      padding: 0 48px;
+      .landing-title {
+        width: 220px;
+        font-size: 16px;
+      }
+      .landing-name-title {
+        font-size: 20px;
+      }
+    }
+    .about-container {
+      max-width: 90%;
+      font-size: 14px;
+      .social-icons {
+        justify-content: space-between;
+        max-width: 100%;
+      }
+    }
+  }
+  .landing-bottom {
+    display: none;
+  }
+}
