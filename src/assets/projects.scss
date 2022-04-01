@@ -113,3 +113,37 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .projects-page {
+    .project-card-container {
+      .project-card {
+        width: 90%;
+        height: 200px;
+        .project-cover {
+          .project-details {
+            padding: 28px;
+            .project-name {
+              font-size: 1em;
+              margin-bottom: 4px;
+            }
+            .project-tech {
+              font-size: 10px;
+              margin-bottom: 8px;
+            }
+            .project-desc {
+              font-size: 10px;
+              margin-bottom: 16px;
+            }
+            .project-card__links-container {
+              width: 64px;
+              .card-button-link {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
