@@ -44,7 +44,7 @@ const Landing = () => {
                 <i class="far fa-envelope default-black"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/jeremy-tuesley-46ab3619a/"
+                href="https://www.linkedin.com/in/jeremy-tuesley/"
                 rel="noreferrer"
                 target="_blank"
               >
