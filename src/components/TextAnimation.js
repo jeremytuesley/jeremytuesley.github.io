@@ -4,6 +4,7 @@ const WordConfig = [
   'Javascript',
   'React JS',
   'TypeScript',
+  'Ruby',
   'Rails',
   'Efficiency',
   'Care',

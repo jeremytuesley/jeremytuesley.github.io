@@ -3,6 +3,7 @@
 import React from 'react';
 
 import '../assets/skills.scss';
+import restAPI from '../assets/images/rest-api-icon.png'
 
 const Skills = () => {
   return (
@@ -105,7 +106,7 @@ const Skills = () => {
               <div className="skills">
                 <div className="image-container">
                   <img
-                    src="https://uxwing.com/wp-content/themes/uxwing/download/07-web-app-development/rest-api.png"
+                    src={restAPI}
                     alt="RestApiLogo"
                   />
                 </div>
